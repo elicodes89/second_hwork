@@ -77,6 +77,8 @@ print(users['Erik']['lottery_numbers'])
 users['Erik']['home_town'] = "Edinburgh"
 print(users['Erik']['home_town'])
 
+eriksLotteryNumbers = users['Erik']['lottery_numbers']
+print(min(eriksLotteryNumbers))
 
 
 

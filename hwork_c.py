@@ -19,13 +19,16 @@ united_kingdom = [
 united_kingdom[1]['capital'] = "Cardiff"
 print(united_kingdom[1]["capital"])
 
-# northern_ireland_dic = [
+united_kingdom.append({'name':'Northern Ireland','capital': 'Belfast', 'population': 1811})
+print(united_kingdom)
 
-#     {
 
-#     "population": "1,811,000" ,
-#     "capital": "Belfast"
-#   }
-# ]
+totalPopu = 0
+
+for country in united_kingdom:
+    population = country['population']
+    totalPopu += population
+
+print(totalPopu)
 
 
